@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Knot Generator </title>
+    <link rel="stylesheet" href="https://use.typekit.net/oke2xnh.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+<header class="headerBar">
+  <h1>Celtic Knot Generator Tool</h1>
+</header>
+  <body>
+  
+    <!-- Div to hold sliders and controls -->
+     <div id="sidebar">
+    <div id="slidersDiv"></div>
+    <div id="dropDownContainer">
+      <div id="fillDiv" class="dropDown"></div>
+      <div id="strokeDiv" class="dropDown"></div>
+      <div id="bgDiv" class="dropDown"></div>
+</div>
+
+<div id="buttonContainer">
+  <div id="clearDiv" class="button"></div>
+  <div id="saveDiv" class="button"></div>
+</div>
+
+<div id="formattingContainer">
+  <div id="bgEnabledDiv" ></div>
+  <div id="formatDiv"></div>
+</div>
+  </div>
+    <!-- Div to hold the canvas element -->
+    <div id="canvasContainer"></div>
+    <canvas id="canvas"></canvas>
+  
+    <!-- Your custom JavaScript files -->
+    <script src="sketch.js"></script>
+    <script src="knot.js"></script>
+  </body>
